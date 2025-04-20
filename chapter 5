@@ -1,0 +1,455 @@
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    // int marks;
+    // cout<<"ENter a marks::";
+    // cin>>marks;
+    // if(marks>=40)
+   
+    // cout<<"Congratulation !You have passed.";
+//    int a,b;
+//    cout<<"Enter two numbers::";
+//    cin>>a>>b;
+//    if(a==b)
+//    cout<<"Both numbers are equal::";
+
+
+// int a,b;
+// cout<<"Enter first  number::";
+// cin>>a;
+// cout<<"Enter second number::";
+// cin>>b;
+// if(a*a==b)
+// cout<<"Second number is square of first.";
+// int a,b,c,max;
+// cout<<"Enter first number::";
+// cin>>a;
+// cout<<"Enter second number::";
+// cin>>b;
+// cout<<"Enter third number::";
+// cin>>c;
+// max=a;
+// if(b>max)
+// max=b;
+// if(c>max)
+// max=c;
+// cout<<"Maximum number is"<<max;
+
+
+
+
+// int n;
+// cout<<"Enter a number::";
+// cin>>n;
+// if(n>0)
+// cout<<"Positive number::";
+// if(n<0)
+// cout<<"Negative number::";
+// if(n==0)
+// cout<<"Number is zero";
+
+
+
+
+// int a,b,c,d,e,min,max;
+// cout<<"Enter five numbers:";
+// cin>>a>>b>>c>>d>>e;
+// max=min=a;
+// if(b>max);b=max;
+// if(c>max);c=max;
+// if(d>max);
+// d=max;
+// if(e>max);
+// e=max;
+// if(b<min);b=min;
+// if(c<min);c=min;
+// if(d<min);d=min;
+// if(e<min);e=min;
+// cout<<"Largest number is:"<<max<<endl;
+// cout<<"Smallest number is::"<<min<<endl;
+
+
+// int n;
+// cout<<"Enter a number::";
+// cin>>n;
+// if(n%2==0)
+// cout<<"Even NUmber."<<n;
+// else
+// cout<<"Odd number"<<n;
+
+
+
+
+
+
+
+// int y;
+// cout<<"Enter a year.";
+// cin>>y;
+// if(y%4==0)
+// cout<<"Leap year."<<y;
+// else
+// cout<<"not a leap year."<<y;
+
+
+// float salary,bonus;
+// int grade;
+// cout<<"Enter your salary:";
+// cin>>salary;
+// cout<<"Enter your grade:";
+// cin>>grade;
+// if(grade>15)
+// bonus=salary*50.0/100;
+// else
+// bonus=salary*25.0/100;
+// salary=salary+bonus;
+// cout<<"totla salary";
+// cout<<salary;
+
+
+
+
+// int bonus,salary,grade;
+// cout<<"Enter the sallary ";
+// cin>>salary;
+// cout<<"Enter tjhe grade ";
+// cin>>grade;
+// if(grade>15){
+//     int a=salary*0.50;
+//     salary=salary+a;
+//     cout<<salary;
+// }
+// else{
+//   int a=salary*0.25;
+//     salary=salary+a;
+//     cout<<salary;
+// }
+
+
+
+
+// int a,b;
+// cout<<"Enter first integer::";
+// cin>>a;
+// cout<<"Enter second integer::";
+// cin>>b;
+// if(a%b==0)
+// cout<<"Firt number is a muiltiple of second number::";
+// else
+// cout<<"Firt number is not muiltiple of second number::";
+   
+
+
+
+// int n,bill;
+// cout<<"enter the unit::";
+// cin>>n;
+// if(n<=300)
+// bill=n*2+150;
+// else if(n>300&&n<=500)
+// bill=n*5+150;
+// else if(n>500)
+// bill=n*7+150;
+// else if(bill<2000)
+// bill=bill+bill*0.05;
+// cout<<bill;
+
+
+
+
+
+// int n,m=200,bill;
+// cout<<"ENter calls::";
+// cin>>n;
+// if(n<=100)
+// bill=m;
+// else if(n<=150)
+// bill=m+(n-100)*0.60;
+// else if(n<=200)
+// bill=m+(50*0.60)+(n-150)*0.50;
+// else
+// bill=m+(50*0.60)+(50*0.50)+(n-200)*0.40;
+// cout<<"Total bill::"<<bill;
+
+
+
+
+
+// int x,y,z;
+// cout<<"Enter three number";
+// cin>>x>>y>>z;
+// if(x<y)
+// if(x<z)
+// cout<<x<<"is smllest number.";
+// else
+// cout<<z<<"is smallest number.";
+// else
+// if(y<z)
+// cout<<y<<"is smallest number.";
+// else
+// cout<<z<<"is smallest number.";
+
+
+
+// int a,b,c;
+// cout<<"enter three number::";
+// cin>>a>>b>>c;
+// if(a==b)
+// if(a==c)
+// cout<<"Numbers are equal";
+// else
+// cout<<"Not equal numbers.";
+// else
+// cout<<"Differnet nubmer:";
+
+
+
+// int a,b,c;
+// cout<<"Enter three numbers::";
+// cin>>a>>b>>c;
+// if(a>b&&a>c)
+// cout<<"Maximum number"<<a;
+// else if(b>a&&b>c)
+// cout<<"Maximum number"<<b;
+// else
+// cout<<"Maximum number"<<c;
+
+
+// char ch;
+// cout<<"Enter a characters::";
+// cin>>ch;
+// if((ch=='A')&&(ch=='Z'))
+// cout<<ch<<"is capital";
+
+// else if((ch=='a')&&(ch=='z'))
+// cout<<ch<<"is small case letters";
+// else if((ch=='0')&&(ch=='9'))
+// cout<<ch<<"is digtal number";
+// else
+// cout<<ch<<"special symbol";
+
+
+
+
+// int n;
+// cout<<"ENter a number::";
+// cin>>n;
+// if(!(n%2==0))
+// cout<<"Your number is oddnumber::";
+// else
+// cout<<"your number is even::";
+
+
+
+
+
+
+// int m;
+// cout<<"Enter a marks";
+// cin>>m;
+// cout<<"R="<<(m>40?"pass":"fail");
+
+
+
+// int n;
+// cout<<"Enter number::";
+// cin>>n;
+// cout<<"number is:"<<(n%3==0?"divisible by 3":" not divislbe by 3");
+
+
+
+
+
+
+
+
+// int a,b,c;
+// cout<<"Enter a thrre number::";
+// cin>>a>>b>>c;
+// if(a!=0)
+// {
+//     if(b%a==0&c%a==0)
+//     cout<<a<<"is a common divisible by "<<b<<"and"<<c;
+//     else
+//     cout<<a<<"is not a common divisible by "<<b<<"and"<<c;
+
+// }
+// else
+// cout<<"value of a is not zero."<<endl;
+
+
+
+
+// int y;
+// cout<<"Ente a year::";
+// cin>>y;
+// if((y%4==0&&y%100!=0)||y%400==0)
+// cout<<y<<" is a leap year.";
+// else
+// cout<<y<<" is not a leap year.";
+
+
+
+
+// int net,salary,tax;
+// cout<<"Enter employee salary::";
+// cin>>salary;
+// if(salary>30000)
+// tax=salary*0.20;
+// else if(salary>20000)
+// tax=salary*0.15;
+// else 
+// tax=salary*0.10;
+// net=salary-tax;
+// cout<<"Income tax."<<tax<<endl;
+// cout<<"Net salary."<<net;
+
+
+
+
+
+// float a,b,c,dis,root1,root2;
+// cout<<"ENter three number ::";
+// cin>>a>>b>>c;
+// dis=b*b-4.0*a*c;
+// if(dis<=0)
+// cout<<"Sorry is not a real solutionsa.";
+// else{
+// root1=(-b+sqrt(dis))/(2.0*a);
+// root2=(-b-sqrt(dis))/(2.0*a);
+// cout<<"Root of the equation are:"<<root1<<"and"<<root2;
+// }
+
+
+
+
+
+
+
+
+// int month,days,year;
+// cout<<"Enter a month(1-12)::";
+// cin>>month;
+// cout<<"Enter a year::";
+// cin>>year;
+// if(month==2)
+// {
+//     if((month%4==0&&month%100!=0)||month%400==0)
+//     days=29;
+//     else
+//     days=28;
+// }
+// else if(month==4||month==6||month==9||month==11)
+// days-30;
+// else 
+// days=31;
+// cout<<"Month"<<month<<"in year"<<year<<"has"<<days<<"days."<<endl;
+
+
+
+
+
+
+// float  value,result;
+// char type;
+// cout << "Select conversion type:" << endl;
+// cout << "c = Centimeters to Inches" << endl;
+// cout << "l = Liters to Gallons" << endl;
+// cout << "k = Kilometers to Miles" << endl;
+// cout << "g = Kilograms to Pounds" << endl;
+// cout << "Enter your choice: ";
+// cin>>type;
+// cout<<"ENter a value::";
+// cin>>value;
+// if(type=='c'){
+// result=value*0.394;
+// cout<<value<<"cm="<<result<<"inches"<<endl;}
+// else if(type=='l'){
+// result=value*0.264;
+// cout<<value<<"liter="<<result<<"gallons"<<endl;}
+// else if(type=='k'){
+//     result=value*0.622;
+//     cout<<value<<"kilometer="<<result<<"miles"<<endl;}
+//     else if(type=='g'){
+//         result=value*2.2;
+//         cout<<value<<"kilogram="<<result<<"pounds"<<endl;}
+//         else
+//         cout<<"Invalid input."<<endl;
+
+
+
+// int n;
+// cout<<"ENter a number::";
+// cin>>n;
+// if(n==0)
+// cout<<"Number is zero";
+// else if(n>0)
+// {
+//     if(n%2==0)
+//     cout<<n<<"Number is positive even:";
+//     else
+//     cout<<n<<"number is positive odd:";
+
+// }
+// else{
+//     if(n%2==0)
+//     cout<<n<<"Number is negative even:";
+//     else
+//     cout<<n<<"number is negative odd:";
+// }
+
+
+
+
+// float a,b,c;
+// cout<<"Enter three side of the lenght ::";
+// cin>>a>>b>>c;
+// if(a==b&&b==c)
+// cout<<"Equilateral triangle."<<endl;
+// else if (a==b||b==c||a==c)
+// cout<<"Isoscelse triangle."<<endl;
+// else
+// cout<<"Scalene triangle."<<endl;
+
+
+// int area,length,width,height,r;
+// int  choice;
+// cout<<"Enter your choice";
+// cin>>choice;
+
+// switch(choice)
+// {
+//     case 1:
+//     cout<<"ENter a radius";
+// cin>>r;
+// area= M_PI*r*r;
+// cout<<"Area of circle is:"<<area<<endl;
+// break;
+// case 2:
+// cout<<"enter a lenght:";
+// cin>>length;cout<<"Enter a widht of a triangle:";
+// cin>>width;
+// area=length*width;
+// cout<<"Area of rectangel is"<<area<<endl;
+// break;
+// case 3:
+// cout<<"ENter a height of a triangle:";
+// cin>>height;
+// cout<<"Enter a widht of a triangle:";
+// cin>>width;
+// area=0.5*height*width;
+// cout<<"Area of traingle is::"<<area;
+// break;
+// }
+
+
+
+return 0;
+
+
+
+} 
+
+⬇
